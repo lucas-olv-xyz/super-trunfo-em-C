@@ -7,6 +7,7 @@ int main() {
 
 
     // ---------------dados da primeira carta---------------------
+    printf("hora de escrever os dados da primeira carta\n");
     //estado
     printf("Digite o nome do estado da primeira carta: ");
     scanf("%s", estado1);
@@ -25,7 +26,7 @@ int main() {
 
     //area
     printf("Digite a area da primeira carta: ");
-    scanf("%d", &area1);
+    scanf("%f", &area1);
 
     //pib
     printf("Digite o pib da primeira carta: ");
@@ -34,5 +35,10 @@ int main() {
     //num pontos tur
     printf("Digite o numero de pontos turisticos da primeira carta: ");
     scanf("%d", &pontos_tur1);
+
+
+    //--------------------dados da segunda carta----------------------
+    printf("hora de escrever os dados da segunda carta\n");
+
 
 }
