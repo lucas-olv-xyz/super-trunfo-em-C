@@ -38,7 +38,34 @@ int main() {
 
 
     //--------------------dados da segunda carta----------------------
+    printf("---------------------------------------------------------\n");
     printf("hora de escrever os dados da segunda carta\n");
+    //estado
+    printf("Digite o nome do estado da segunda carta: ");
+    scanf("%s", estado2);
+    
+    //cod carta
+    printf("Digite o codigo da segunda carta: ");
+    scanf("%s", codigo2);
+    
+    //nome
+    printf("Digite o nome da cidade da segunda carta: ");
+    scanf("%s", nome_cidade2);
 
+    //pop
+    printf("Digite a populacao da segunda carta: ");
+    scanf("%d", &pop2);
+
+    //area
+    printf("Digite a area da segunda carta: ");
+    scanf("%f", &area2);
+
+    //pib
+    printf("Digite o pib da segunda carta: ");
+    scanf("%f", &pib2);
+
+    //num pontos tur
+    printf("Digite o numero de pontos turisticos da segunda carta: ");
+    scanf("%d", &pontos_tur2);
 
 }
