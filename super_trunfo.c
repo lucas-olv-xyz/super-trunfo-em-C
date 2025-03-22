@@ -22,15 +22,15 @@ int main() {
 
     //pop
     printf("Digite a populacao da primeira carta: ");
-    scanf("%d", &pop1);
+    scanf("%lf", &pop1);
 
     //area
     printf("Digite a area da primeira carta: ");
-    scanf("%f", &area1);
+    scanf("%lf", &area1);
 
     //pib
     printf("Digite o pib da primeira carta: ");
-    scanf("%f", &pib1);
+    scanf("%lf", &pib1);
 
     //num pontos tur
     printf("Digite o numero de pontos turisticos da primeira carta: ");
@@ -54,15 +54,15 @@ int main() {
 
     //pop
     printf("Digite a populacao da segunda carta: ");
-    scanf("%d", &pop2);
+    scanf("%lf", &pop2);
 
     //area
     printf("Digite a area da segunda carta: ");
-    scanf("%f", &area2);
+    scanf("%lf", &area2);
 
     //pib
     printf("Digite o pib da segunda carta: ");
-    scanf("%f", &pib2);
+    scanf("%lf", &pib2);
 
     //num pontos tur
     printf("Digite o numero de pontos turisticos da segunda carta: ");
